@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02</title>
+</head>
+<body>
+
+    <script>
+
+        //Primeira Questão
+        let valor = 0.5;
+
+        if(valor>0){
+            console.log("Positivo!");
+        }else if(valor==0){
+            console.log('Zero!');
+        }else{
+            console.log('Negativo!');
+        }
+
+        //Segunda Questão
+        let valor_verif = 30;
+
+         if(valor_verif %2 == 0) {
+        console.log("O valor é par");
+        } else {
+        console.log("O valor é ímpar");
+        }
+
+        //Terceira Questão
+        let idade = 23;
+
+        if(idade <=12){
+            console.log("Criança");
+        }else if (idade <18 ){ 
+            console.log("Adolecente");
+        }else if (idade <=55){ 
+            console.log("Adulto");
+        }else{ 
+            console.log("Idoso");
+        }
+
+        //Quarta Questão
+        let nota = 9;
+
+        if(nota<=6){
+            console.log('F');
+        }else if(nota<=7){
+            console.log('D');
+        }else if(nota<=8){
+            console.log('C');
+        }else if(nota<=8.9){
+            console.log('B');
+        }else if(nota<=10){
+            console.log('A');
+        }else{
+            console.log('Nota Inválida');
+        }
+
+        //Quinta Questão
+        let diaDaSemana = 2;
+        let dia;
+
+        switch(diaDaSemana) {
+            case 1:
+                dia = "Domingo";
+                break;
+            case 2:
+                dia = "Segunda-feira";
+                break;
+            case 3:
+                dia = "Terça-feira";
+                break; 
+            case 4:
+                dia = "Quarta-feira";
+                break; 
+            case 5:
+                dia = "Quinta-feira";
+                break;
+            case 6:
+                dia = "Sexta-feira";
+                break;
+            case 7:
+                dia = "Sábado";
+                break;
+            default:
+                dia = "Dia inválido"
+        }
+        console.log(dia);
+
+        //Sexta Questão
+
+        let fat = 3500;
+
+        if(fat>5000){
+            console.log(fat + (fat*0.10) + " Faturamento com 10% de Bônus");
+        }else if( fat >=1000 && fat <=5000){
+            console.log(fat + (fat*0.05) + " Faturamento com 5% de Bônus");
+        }else{
+            console.log(fat + ' Faturamento sem Bônus');
+        }
+    </script>
+    
+</body>
+</html>
